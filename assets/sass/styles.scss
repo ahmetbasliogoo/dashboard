@@ -89,9 +89,29 @@ $menu-width:96px;
                 
             }
             &__icons{
-                
-                
-               // background: orange;
+                display: flex;
+                align-items: center;
+                padding-right: 40px;
+
+               &__icon{
+                   display: flex;
+                   align-items: center;
+                    justify-content: center;
+                   &__badge{
+                       position: relative;
+                       top: 15px;
+                       right: 15px;
+                        
+                       &--notvisible{
+                           visibility: hidden;
+                       }
+                   }
+                   &__plus{
+                       position: absolute;
+                       
+
+                   }
+               }
             }
 
 
