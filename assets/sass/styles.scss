@@ -39,6 +39,12 @@ $menu-width:96px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                &--setting-icon{
+                    position: absolute;
+                    bottom: 0;
+                }
+
                 &:hover{
                     background-color: #F2F2F2;
                 }
@@ -55,14 +61,32 @@ $menu-width:96px;
         
         
        &__search-and-icons{
+            height: 100px;
             display: flex;
-            align-items: center;
             justify-content: space-between;
 
             &__search{
+            
+                padding-left: 40px;
                 flex: 1;
-                //background: blue;
-               
+                padding-top: 26px;
+                
+                &__wrap{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        height: 18px;
+                        width: 18px;
+                    }
+                    input{
+                       width: 100%;
+                       background: none;
+                       border: none;
+                       outline: none;
+                    
+                    }
+                }
+                
             }
             &__icons{
                 
