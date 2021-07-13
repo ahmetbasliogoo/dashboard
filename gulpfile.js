@@ -2,7 +2,6 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
 const { series } = require('gulp');
-const del = require('del');
 const usemin = require('gulp-usemin');
 const rev = require('gulp-rev');
 const cssnano = require('gulp-cssnano');
@@ -14,12 +13,12 @@ const sourcemaps = require('gulp-sourcemaps');
 
 
 function style() {
-    return gulp.src('./app/assetsg/styles/**/*.scss')
+    return gulp.src('./app/assets/sass/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer())
         .pipe(sourcemaps.write('./'))
-        .pipe(gulp.dest('./app/assets/styles/'))
+        .pipe(gulp.dest('./app/assets/sass/'))
         .pipe(browserSync.stream())
 }
 
@@ -31,14 +30,11 @@ function watch() {
         notify: false,
         startPath: './app/index.html'
     });
-    gulp.watch('./app/assets/styles/**/*.scss', style);
+    gulp.watch('./app/assets/sass/*.scss', style);
     gulp.watch('./app/*.html').on('change', browserSync.reload);
-    gulp.watch('./app/assets/scripts/**/*.js').on('change', browserSync.reload);
 }
 
-function cleanDist() {
-    return del('./dist');
-}
+
 
 function minify() {
     return gulp.src('./app/*.html')
@@ -52,17 +48,12 @@ function minify() {
         }))
         .pipe(gulp.dest('./dist'));
 }
+function forDist(){
 
-function copyOtherAssets() {
-    return gulp.src([
-        './app/assets/**/*',
-        '!./app/assets/images/icon-font/**',
-        '!./app/assets/scripts/**',
-        '!./app/assets/styles/**',
-    ])
-        .pipe(gulp.dest('./dist/assets/'));
+    return gulp.src(./app/)
 }
+
 
 exports.style = style;
 exports.watch = series(style, watch);
-exports.build = series(cleanDist, minify, copyOtherAssets);
+exports.build = series( minify);
