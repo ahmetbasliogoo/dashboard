@@ -48,10 +48,6 @@ function minify() {
         }))
         .pipe(gulp.dest('./dist'));
 }
-function forDist(){
-
-    return gulp.src(./app/)
-}
 
 
 exports.style = style;

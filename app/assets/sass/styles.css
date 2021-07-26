@@ -67,20 +67,20 @@ body {
         align-items: center;
         padding-right: 40px; }
         .entry__content__search-and-icons__icons__icon {
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          position: relative;
           cursor: pointer; }
           .entry__content__search-and-icons__icons__icon:hover {
             transform: translate(0px, -4px); }
           .entry__content__search-and-icons__icons__icon__badge {
             position: relative;
-            top: 15px;
-            right: 15px; }
+            top: 12px;
+            right: 18px; }
             .entry__content__search-and-icons__icons__icon__badge--notvisible {
               visibility: hidden; }
           .entry__content__search-and-icons__icons__icon__plus {
-            position: absolute; }
+            position: absolute;
+            top: 10px;
+            left: 10px; }
     .entry__content__main {
       margin-right: 40px;
       margin-left: 40px; }
@@ -98,8 +98,65 @@ body {
         background: #FFFFFF;
         border-radius: 10px; }
       .entry__content__main__people {
-        height: 320px;
-        background: purple; }
+        height: 320px; }
+        .entry__content__main__people__person {
+          background: #FFFFFF;
+          border-radius: 10px;
+          padding-left: 20px;
+          padding-top: 18px;
+          padding-bottom: 18px;
+          margin-bottom: 40px;
+          display: flex;
+          justify-content: space-between; }
+          .entry__content__main__people__person__left {
+            display: flex;
+            max-width: 163px; }
+            .entry__content__main__people__person__left img {
+              height: 44px;
+              width: 44px; }
+            .entry__content__main__people__person__left__info {
+              padding-left: 8px; }
+              .entry__content__main__people__person__left__info h1 {
+                white-space: nowrap;
+                font-family: sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 0px; }
+              .entry__content__main__people__person__left__info h2 {
+                white-space: nowrap;
+                font-family: sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 0px;
+                color: gray; }
+          .entry__content__main__people__person__right {
+            width: 355px;
+            max-width: 355px;
+            margin-right: 30px;
+            margin-left: 27px;
+            display: flex;
+            flex-direction: column;
+            position: relative; }
+            .entry__content__main__people__person__right h5 {
+              align-self: flex-end;
+              font-size: 14px; }
+            .entry__content__main__people__person__right__bar-bg {
+              height: 8px;
+              border-radius: 71.5px;
+              background: #DAD7FE;
+              border-radius: 71.5px; }
+            .entry__content__main__people__person__right__bar {
+              height: 8px;
+              width: 173px;
+              border-radius: 71.5px;
+              background: #4339F2;
+              border-radius: 71.5px;
+              position: relative;
+              top: -8px; }
       .entry__content__main__oval-bar {
         height: 320px;
         background: orange;
