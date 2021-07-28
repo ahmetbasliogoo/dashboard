@@ -1,12 +1,10 @@
-
 .sliders {
-
   height: 505px;
   background: red;
 
   margin-left: 40px;
 
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
   padding: 30px;
 
@@ -21,8 +19,6 @@
 
   &__bar {
     margin-bottom: 30px;
-
-
   }
 
   &__bottom {
@@ -44,15 +40,12 @@
       color: white;
       border: none;
       outline: none;
-      background: #4339F2;
+      background: #4339f2;
       border-radius: 10px;
 
       &:hover {
-        background: #02A0FC;
+        background: #02a0fc;
       }
     }
-
   }
-
-
 }

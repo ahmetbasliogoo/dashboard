@@ -1,20 +1,14 @@
 .content {
-
   margin-left: $menu-width;
-
 
   &__search-and-icons {
     height: 100px;
     display: flex;
     justify-content: space-between;
-
-
   }
 
   &__main {
     margin-right: 40px;
     margin-left: 40px;
-
-
   }
 }

@@ -1,7 +1,7 @@
 .right-bottom {
   height: 320px;
   margin-left: 40px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
   position: relative;
   justify-content: space-between;
@@ -10,7 +10,6 @@
   &__infos {
     display: flex;
     justify-content: space-between;
-
   }
 
   & > img {
@@ -20,5 +19,4 @@
     object-fit: contain;
     z-index: 10;
   }
-
 }
