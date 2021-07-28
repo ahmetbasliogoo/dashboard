@@ -13,7 +13,7 @@ const sourcemaps = require('gulp-sourcemaps');
 
 
 function style() {
-    return gulp.src('./app/assets/sass/*.scss')
+    return gulp.src('./app/assets/sass/**/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer())
@@ -30,8 +30,9 @@ function watch() {
         notify: false,
         startPath: './app/index.html'
     });
-    gulp.watch('./app/assets/sass/*.scss', style);
+    gulp.watch('./app/assets/sass/**/*.scss', style);
     gulp.watch('./app/*.html').on('change', browserSync.reload);
+
 }
 
 

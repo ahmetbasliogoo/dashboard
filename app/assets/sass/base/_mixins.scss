@@ -1,0 +1,5 @@
+@mixin atSuperLarge {
+  @media (min-width: 1467px) {
+    @content;
+  }
+}

@@ -3,9 +3,6 @@
   padding: 0px;
   box-sizing: border-box; }
 
-body {
-  background-color: #F2F2F2; }
-
 .nopadding {
   padding: 0 !important;
   margin: 0 !important; }
@@ -208,6 +205,8 @@ body {
             outline: none;
             background: #4339F2;
             border-radius: 10px; }
+            .entry__content__main__bars__bottom__button:hover {
+              background: #02A0FC; }
       .entry__content__main__people {
         height: 320px; }
         .entry__content__main__people__person {
