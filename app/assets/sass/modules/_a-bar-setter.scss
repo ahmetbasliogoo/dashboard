@@ -1,0 +1,30 @@
+
+.a-bar-setter {
+  position: relative;
+
+  &__line-bg {
+    height: 8px;
+    border-radius: 71.5px;
+    background: #DAD7FE;
+    border-radius: 71.5px;
+
+  }
+
+  &__line {
+    height: 8px;
+    width: 173px;
+
+    border-radius: 71.5px;
+
+    background: #4339F2;
+    border-radius: 71.5px;
+    position: absolute;
+    top: 0px;
+  }
+
+  &__dot {
+    position: absolute;
+    top: -10px;
+    left: 163px;
+  }
+}

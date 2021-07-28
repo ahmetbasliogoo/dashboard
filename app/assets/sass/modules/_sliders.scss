@@ -1,0 +1,58 @@
+
+.sliders {
+
+  height: 505px;
+  background: red;
+
+  margin-left: 40px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 30px;
+
+  &__header {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 24px;
+  }
+
+  &__bar {
+    margin-bottom: 30px;
+
+
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+
+    &__price {
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 52px;
+    }
+
+    &__button {
+      height: 50px;
+      width: 140px;
+      color: white;
+      border: none;
+      outline: none;
+      background: #4339F2;
+      border-radius: 10px;
+
+      &:hover {
+        background: #02A0FC;
+      }
+    }
+
+  }
+
+
+}

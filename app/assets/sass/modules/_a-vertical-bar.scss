@@ -1,0 +1,35 @@
+.a-vertical-bar {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 18px;
+
+  justify-content: flex-end;
+
+  &__bars {
+    display: flex;
+
+    &__blue {
+      width: 14px;
+      height: 329px;
+      background: #02A0FC;
+      border-radius: 10px;
+      margin-right: 10px;
+    }
+
+    &__green {
+      width: 14px;
+      height: 329px;
+      background: #34B53A;
+      border-radius: 10px;
+    }
+  }
+
+  &__date {
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    opacity: 0.4;
+    margin-top: 11px;
+
+  }
+}
