@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "jquery": "^3.4.1",
-    "select2": "^4.0.13"
+    "select2": "^4.0.13",
+    "bootstrap": "^4.4.1",
+    "bootstrap-datepicker": "^1.9.0"
   }
 }
