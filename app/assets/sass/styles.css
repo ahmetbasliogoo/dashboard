@@ -7282,23 +7282,13 @@ a.text-dark:hover, a.text-dark:focus {
   .a-icon:hover {
     background-color: #f2f2f2; }
 
-.content {
+.a-dashboard-content {
   margin-left: 96px; }
-  .content__search-and-icons {
+  .a-dashboard-content__search-and-icons {
     height: 100px;
     display: flex;
     justify-content: space-between; }
-  .content__main {
-    margin-right: 40px;
-    margin-left: 40px; }
-
-.content {
-  margin-left: 96px; }
-  .content__search-and-icons {
-    height: 100px;
-    display: flex;
-    justify-content: space-between; }
-  .content__main {
+  .a-dashboard-content__main {
     margin-right: 40px;
     margin-left: 40px; }
 
@@ -7392,7 +7382,7 @@ a.text-dark:hover, a.text-dark:focus {
     opacity: 0.4;
     margin-top: 11px; }
 
-.sliders {
+.a-sliders {
   height: 505px;
   background: red;
   margin-bottom: 40px;
@@ -7400,26 +7390,26 @@ a.text-dark:hover, a.text-dark:focus {
   background: #ffffff;
   border-radius: 10px;
   padding: 30px; }
-  .sliders__header {
+  .a-sliders__header {
     font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 29px;
     margin-bottom: 24px; }
-  .sliders__bar {
+  .a-sliders__bar {
     margin-bottom: 30px; }
-  .sliders__bottom {
+  .a-sliders__bottom {
     display: flex;
     justify-content: space-between;
     margin-top: 96px; }
-    .sliders__bottom__price {
+    .a-sliders__bottom__price {
       font-family: sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 40px;
       line-height: 52px; }
-    .sliders__bottom__button {
+    .a-sliders__bottom__button {
       height: 50px;
       width: 140px;
       color: white;
@@ -7427,45 +7417,7 @@ a.text-dark:hover, a.text-dark:focus {
       outline: none;
       background: #4339f2;
       border-radius: 10px; }
-      .sliders__bottom__button:hover {
-        background: #02a0fc; }
-
-.sliders {
-  height: 505px;
-  background: red;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 30px; }
-  .sliders__header {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 29px;
-    margin-bottom: 24px; }
-  .sliders__bar {
-    margin-bottom: 30px; }
-  .sliders__bottom {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 96px; }
-    .sliders__bottom__price {
-      font-family: sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 40px;
-      line-height: 52px; }
-    .sliders__bottom__button {
-      height: 50px;
-      width: 140px;
-      color: white;
-      border: none;
-      outline: none;
-      background: #4339f2;
-      border-radius: 10px; }
-      .sliders__bottom__button:hover {
+      .a-sliders__bottom__button:hover {
         background: #02a0fc; }
 
 .a-bar-info {
@@ -7502,7 +7454,7 @@ a.text-dark:hover, a.text-dark:focus {
     top: -10px;
     left: 163px; }
 
-.person {
+.a-person {
   background: #ffffff;
   border-radius: 10px;
   padding-left: 20px;
@@ -7511,15 +7463,15 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 40px;
   display: flex;
   justify-content: space-between; }
-  .person__left {
+  .a-person__left {
     display: flex;
     max-width: 163px; }
-    .person__left img {
+    .a-person__left img {
       height: 44px;
       width: 44px; }
-    .person__left__info {
+    .a-person__left__info {
       padding-left: 8px; }
-      .person__left__info h1 {
+      .a-person__left__info h1 {
         white-space: nowrap;
         font-family: sans-serif;
         font-style: normal;
@@ -7527,7 +7479,7 @@ a.text-dark:hover, a.text-dark:focus {
         font-size: 14px;
         line-height: 20px;
         margin-bottom: 0px; }
-      .person__left__info h2 {
+      .a-person__left__info h2 {
         white-space: nowrap;
         font-family: sans-serif;
         font-style: normal;
@@ -7536,22 +7488,22 @@ a.text-dark:hover, a.text-dark:focus {
         line-height: 20px;
         margin-bottom: 0px;
         color: gray; }
-  .person__right {
+  .a-person__right {
     width: 355px;
     max-width: 355px;
     margin-right: 30px;
     margin-left: 27px;
     display: flex;
     flex-direction: column; }
-    .person__right h5 {
+    .a-person__right h5 {
       align-self: flex-end;
       font-size: 14px; }
-    .person__right__bar-bg {
+    .a-person__right__bar-bg {
       height: 8px;
       border-radius: 71.5px;
       background: #dad7fe;
       border-radius: 71.5px; }
-    .person__right__bar {
+    .a-person__right__bar {
       height: 8px;
       width: 173px;
       border-radius: 71.5px;
@@ -7560,43 +7512,43 @@ a.text-dark:hover, a.text-dark:focus {
       position: relative;
       top: -8px; }
 
-.oval-bar {
+.a-ovalbar {
   height: 320px;
   background: orange;
   margin-left: 40px;
   background: #ffffff;
   border-radius: 10px; }
-  .oval-bar__top {
+  .a-ovalbar__top {
     height: 40px;
     padding-top: 20px;
     display: flex;
     justify-content: space-between; }
-    .oval-bar__top img {
+    .a-ovalbar__top img {
       height: 24px;
       width: 24px;
       margin-right: 30px; }
-      .oval-bar__top img:hover {
+      .a-ovalbar__top img:hover {
         cursor: pointer; }
-    .oval-bar__top h5 {
+    .a-ovalbar__top h5 {
       margin-left: 30px;
       font-family: sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
       line-height: 20px; }
-  .oval-bar__mid {
+  .a-ovalbar__mid {
     height: 195px;
     width: 195px;
     margin: 23px auto 22px; }
-  .oval-bar__bottom {
+  .a-ovalbar__bottom {
     height: 40px;
     padding-left: 30px;
     display: flex;
     align-items: center; }
-    .oval-bar__bottom img {
+    .a-ovalbar__bottom img {
       height: 14px;
       width: 14px; }
-    .oval-bar__bottom h5 {
+    .a-ovalbar__bottom h5 {
       font-family: sans-serif;
       font-style: normal;
       font-weight: normal;
@@ -7605,7 +7557,7 @@ a.text-dark:hover, a.text-dark:focus {
       margin-bottom: 0px;
       margin-left: 6px; }
 
-.right-bottom {
+.a-right-bottom {
   height: 320px;
   margin-left: 40px;
   background: #ffffff;
@@ -7613,10 +7565,10 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   justify-content: space-between;
   z-index: 0; }
-  .right-bottom__infos {
+  .a-right-bottom__infos {
     display: flex;
     justify-content: space-between; }
-  .right-bottom > img {
+  .a-right-bottom > img {
     width: 100%;
     position: absolute;
     bottom: 0px;
