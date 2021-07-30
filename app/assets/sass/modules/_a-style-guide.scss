@@ -1,0 +1,77 @@
+.a-style-guide {
+
+  &-body {
+
+  }
+
+  &-body--gray {
+    background-color: #F4F4F4;
+  }
+
+  &__header {
+    padding: 30px;
+    text-align: center;
+  }
+
+  &__logo {
+    max-width: 366px;
+    width: 100%;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+
+
+  }
+
+  &__subtitle--fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  &__description {
+    padding: 0 15px;
+  }
+
+  &__card {
+    background-color: #4339f2;
+    margin-bottom: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .5;
+  }
+
+  &__card--active {
+    opacity: 1;
+  }
+
+  &__card__link {
+    color: white;
+
+    &:hover {
+      color: white;
+    }
+
+  }
+
+  &__note {
+    margin-bottom: 20px;
+  }
+
+  &__content {
+    padding-bottom: 100px;
+  }
+
+}

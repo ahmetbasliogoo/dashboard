@@ -28,7 +28,7 @@ function watch() {
             baseDir: './'
         },
         notify: false,
-        startPath: './app/index.html'
+        startPath: './app/all-pages.html'
     });
     gulp.watch('./app/assets/sass/**/*.scss', style);
     gulp.watch('./app/*.html').on('change', browserSync.reload);
