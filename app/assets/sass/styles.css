@@ -7350,10 +7350,10 @@ a.text-dark:hover, a.text-dark:focus {
       margin-right: 30px; }
   .a-chart__main {
     height: 368px;
-    width: 852px;
+    padding: 0px 10px;
     margin: auto;
     margin-top: 42px;
-    justify-content: center;
+    justify-content: space-around;
     display: flex; }
 
 /*
@@ -7366,7 +7366,6 @@ a.text-dark:hover, a.text-dark:focus {
 .a-vertical-bar {
   display: flex;
   flex-direction: column;
-  margin: 0px 18px;
   width: 40px;
   justify-content: flex-end; }
   .a-vertical-bar__bars {
